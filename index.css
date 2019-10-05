@@ -12,10 +12,7 @@
 }
 
 .social-link {
-    margin-left: 15px;
-}
-
-.social-link-icon {
-    color:#757575;
-    font-size: 35px;
+    margin-left: 5px;
+    height: 40px;
+    width: 40px;
 }
