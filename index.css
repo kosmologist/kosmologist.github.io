@@ -1,18 +1,61 @@
-.k-title {
-    font-weight: 200;
-    font-size: 55px;
+html, body {
+    font-family: 'Fira Code', monospace;
+    color: #757575;
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
-.k-subtitle {
+.nav {
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-item {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100%;
+}
+
+.title {
     font-weight: 300;
+    font-size: 45px;
+    margin: 0;
+}
+
+
+.subtitle {
+    font-weight: 300;
+    margin: 0 0 0 0;
+    font-size: 20px;
+}
+
+.profiles {
+    margin-top: 10px;
 }
 
 .green {
     color: #02bf95;
 }
 
+a {
+    text-decoration: none;
+    color: #757575;
+}
+
 .social-link {
-    margin-left: 5px;
-    height: 40px;
-    width: 40px;
+    padding-left: 5px;
+    height: 35px;
+    width: 35px;
 }
