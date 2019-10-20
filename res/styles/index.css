@@ -1,6 +1,5 @@
 html, body {
     font-family: 'Fira Code', monospace;
-    color: #757575;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -16,6 +15,17 @@ html, body {
 .nav-item {
     padding-left: 10px;
     padding-right: 10px;
+    cursor: pointer;
+}
+
+.light {
+    background-color: white;
+    color: #757575;
+}
+
+.dark {
+    background-color: #121212;
+    color: white;
 }
 
 .banner {
@@ -51,7 +61,6 @@ html, body {
 
 a {
     text-decoration: none;
-    color: #757575;
 }
 
 .social-link {
