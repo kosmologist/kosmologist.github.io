@@ -1,6 +1,6 @@
 ---
 title: How to configure SSH for GitHub and Gitlab
-date: "2023-08-30T05:17:00.000Z"
+date: "2023-08-30T00:00:00.000Z"
 description: "Step by Step instructions to configure SSH for GitHub/Gitlab on Mac"
 ---
 
