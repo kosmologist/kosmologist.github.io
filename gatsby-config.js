@@ -12,12 +12,13 @@ module.exports = {
     title: `BigBang`,
     author: {
       name: `Qasim`,
-      summary: `who develop software for a living.`,
+      summary: `, A passionate Software Engineer with 10+ years in Frontend Engineering and System Design.`,
     },
     description: `Qasim's Personal to share engineering experiences`,
     siteUrl: `https://kosmologist.github.io`,
     social: {
       twitter: `qasimmunier`,
+      linkedIn: `kosmologist`
     },
   },
   plugins: [

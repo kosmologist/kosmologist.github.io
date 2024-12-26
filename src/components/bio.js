@@ -32,22 +32,25 @@ const Bio = () => {
 
   return (
     <div className="bio">
-      <StaticImage
-        className="bio-avatar"
-        layout="fixed"
-        formats={["auto", "webp", "avif"]}
-        src="../images/profile-pic.jpeg"
-        width={50}
-        height={50}
-        quality={95}
-        alt="Profile picture"
-      />
       {author?.name && (
         <p>
-          Written by <strong>{author.name}</strong> {author?.summary || null}
+          Personal Blog by <strong>{author.name}</strong>{author?.summary || null}
           {` `}
-          <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            You should follow him on Twitter
+          <br></br>
+          <a href={`https://www.linkedin.com/in/kosmologist`}>
+            LinkedIn
+          </a>
+          {` `}
+          <a href={`https://stackoverflow.com/users/3141231/qasim`}>
+            StackOverflow
+          </a>
+          {` `}
+          <a href={`https://github.com/kosmologist`}>
+            Github
+          </a>
+          {` `}
+          <a href={`https://x.com/qosmologist`}>
+            Twitter
           </a>
         </p>
       )}
